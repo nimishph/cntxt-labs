@@ -1,0 +1,37 @@
+{
+  "name": "cntxt-labs",
+  "description": "Distributable Claude Code plugins from cntxt-labs: medha, anvesa, yojana.",
+  "owner": {
+    "name": "Nimish Phalnikar",
+    "url": "https://github.com/nimishph"
+  },
+  "plugins": [
+    {
+      "name": "medha",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nimishph/medha.git",
+        "path": "plugin"
+      },
+      "description": "medha: trust hints for rules, recipes and tools — MCP server, agent skill, and slash commands."
+    },
+    {
+      "name": "anvesa",
+      "source": {
+        "source": "github",
+        "repo": "nimishph/anvesa",
+        "ref": "feat/claude-plugin"
+      },
+      "description": "anvesa: find code by meaning and by structure — semantic search, WQL structural queries and the call graph, offline, over MCP and the CLI."
+    },
+    {
+      "name": "yojana",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nimishph/yojana.git",
+        "path": "claude-plugin"
+      },
+      "description": "yojana: plans as checkable contracts — claims verified against the code, suggested changes, live review pages, and decisions on beads that a person finalizes."
+    }
+  ]
+}
