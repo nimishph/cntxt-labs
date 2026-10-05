@@ -19,8 +19,7 @@
       "name": "anvesa",
       "source": {
         "source": "github",
-        "repo": "nimishph/anvesa",
-        "ref": "feat/claude-plugin"
+        "repo": "nimishph/anvesa"
       },
       "description": "anvesa: find code by meaning and by structure — semantic search, WQL structural queries and the call graph, offline, over MCP and the CLI."
     },

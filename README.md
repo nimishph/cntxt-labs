@@ -30,9 +30,8 @@ claude plugin install medha@cntxt-labs
 
 ## Versioning
 
-Entries track the default branch of each product repository (anvesa tracks
-`feat/claude-plugin` until that branch merges). Stable releases are tagged in the product
-repositories themselves; this marketplace only says where to fetch from.
+Entries track the default branch of each product repository. Stable releases are tagged in the
+product repositories themselves; this marketplace only says where to fetch from.
 
 Alpha/beta builds are not distributed here. They come from a local, machine-only marketplace
 (`cntxt-labs-dev`) that loads the workspace working trees in place.
